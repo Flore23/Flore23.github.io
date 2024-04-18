@@ -1,0 +1,87 @@
+  <style>
+
+        
+img {
+    width: 400px;; 
+    height: 400px; 
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: #809bce;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+   
+}
+nav {
+    background-color: #215497;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #f6f5f7;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #215497;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* THIS LINE IS FOR THE HOME AND INDEX PHOTO  */
+
+    *{
+        box-sizing: border-box;
+}
+.column {
+        float: left;
+        width: 30.55%;
+        padding: 20px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image
+.content { display: inline-block;}
+.text1 {
+    font-size: 2em;
+    letter-spacing: 20px;
+    border-right: 100px solid;
+    width: 500%;
+
+}
+/* THIS LINE IS FOR THE HOME AND INDEX PHOTO  */
+
+.typing { display: inline-block;}
+.text{
+    font-size: 4em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+    typing 2s,
+    cursor .4s step-end infinite alternate;
+}
+/* END NI SA HI MY NAME */
+
