@@ -1,21 +1,34 @@
-  <style>
+   <style>
 
-        
+  .mainphoto Logo {
+     background-color: #215497;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+      
 img {
-    width: 400px;; 
-    height: 400px; 
+    width: 220px; 
+    height: 190px;
     
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family:"Lucida Console", "Courier New", monospace;;
     margin: 0;
     padding: 0;
 }
 header {
     background-image: #809bce;
-    color: #fff;
+    color: #181717;
     padding: 10px;
     text-align: center;
+    display:relative;
+    justify-content: center;
+    align-items: center;         
    
 }
 nav {
@@ -24,7 +37,7 @@ nav {
     text-align: center;
 }
 nav a {
-    color: #f6f5f7;
+    color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -32,10 +45,59 @@ nav a:hover {
     text-decoration: underline;
 }
 
+ header {
+    margin:0;
+    padding:0;
+    background-color: rgb(146, 209, 235);
+    color: #ee5c5c;
+    height:30vh;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", "Courier New", monospace;
+ }
+ body {
+    margin:0;
+    padding:0;
+    background-color: rgba(235, 244, 248, 0.938);
+    color: #ee5c5c;
+    height:40vh;
+    align-items:center;
+    justify-content:center;
+    font-family: "Lucida Console", "Courier New", monospace;
+ }
+
+.animated-text{ 
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+    align-items:below;
+    justify-content:below;
+  }
+
+.Fev-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+.OP{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: #5e0303
+}
+
+
+
 footer {
     background-color: #215497;
     color: #fff;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -47,41 +109,254 @@ footer {
     *{
         box-sizing: border-box;
 }
+
 .column {
         float: left;
-        width: 30.55%;
-        padding: 20px;
+        width: 23%;
+        padding:100px;
+        text-align:center;
 }
 
 .row::after{
     content: "";
     display: table;
     clear: both;
+    
 }
 
-.image
+
 .content { display: inline-block;}
 .text1 {
-    font-size: 2em;
+    font-size: 3em;
     letter-spacing: 20px;
     border-right: 100px solid;
-    width: 500%;
-
-}
-/* THIS LINE IS FOR THE HOME AND INDEX PHOTO  */
-
-.typing { display: inline-block;}
-.text{
-    font-size: 4em;
-    letter-spacing: 10px;
-    font-family: monospace;
-    border-right: 5px solid;
     width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    animation:
-    typing 2s,
-    cursor .4s step-end infinite alternate;
+    align-items: center
+
 }
-/* END NI SA HI MY NAME */
+
+
+/* END of home */
+/* About Us */
+.Experience-text{
+    color: #5e0303;
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    position: relative;
+}
+
+img { max-width: 320px;
+    float: center;
+border:3px ;
+border: radius 10px;
+margin-right: 15px;}
+.text{
+    font-size: 40px;
+    font-weight: 400;
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    color: #5e0303
+}
+.text p1{
+    font-size: 30px;
+    font-weight: 400;
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+    position: absolute;    
+    color: #5e0303
+}
+.Excutives-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    color: #5e0303
+}
+*{
+    box-sizing: border-box;
+}
+
+.co4 {
+    float: left;
+    width: 25%;
+    padding:100px;
+    text-align: center;
+}
+
+.ro4::after{
+content: "";
+display: table;
+clear: both;
+
+}
+.Team-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: #5e0303;
+}
+*{
+    box-sizing: border-box;
+}
+
+.co5 {
+    float: left;
+    width: 25%;
+    padding:100px;
+    text-align: center;
+}
+
+.ro5::after{
+content: "";
+display: table;
+clear: both;
+
+}
+
+
+/* Menu */
+.cakes-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: #5e0303;
+}
+*{
+    box-sizing: border-box;
+}
+
+.co {
+    float: left;
+    width: 25%;
+    padding:100px;
+    text-align: center;
+}
+
+.ro::after{
+content: "";
+display: table;
+clear: both;
+
+}
+.cupcakes-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: #5e0303;
+}
+*{
+    box-sizing: border-box;
+}
+
+.co1 {
+    float: left;
+    width: 25%;
+    padding:100px;
+    text-align: center;
+}
+
+.ro1::after{
+content: "";
+display: table;
+clear: both;
+
+}.cookies-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: #5e0303;
+}
+*{
+    box-sizing: border-box;
+}
+
+.co2 {
+    float: left;
+    width: 25%;
+    padding:100px;
+    text-align: center;
+}
+
+.ro2::after{
+content: "";
+display: table;
+clear: both;
+
+}
+.drinks-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: #5e0303;
+}
+*{
+    box-sizing: border-box;
+}
+
+.co3 {
+    float: left;
+    width: 25%;
+    padding:100px;
+    text-align: center;
+}
+
+.ro3::after{
+content: "";
+display: table;
+clear: both;
+
+}
+
+/* Contact */
+.Contact-text{
+    font-size: 34px;
+    font-weight: 600;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    color: #5e0303
+}
+*{
+    box-sizing: border-box;
+}
+
+.c {
+    float: left;
+    width: 25%;
+    padding:100px;
+    text-align: center;
+}
+
+.r::after{
+content: "";
+display: table;
+clear: both;
+
+}
+
+
 
