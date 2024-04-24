@@ -234,6 +234,8 @@ clear: both;
     text-align: center;
     position: relative;
     color: #5e0303;
+    opacity:0;
+    transition:0.8s;
 }
 *{
     box-sizing: border-box;
@@ -251,6 +253,19 @@ content: "";
 display: table;
 clear: both;
 
+}
+.p: hover{
+  opacity:1;
+}
+.p h41{
+  font-size:45px;
+  color:#ffe100;
+  margin-bottom:15px;
+}
+.p h42{
+  font-size:50px;
+  color:#ffe100;
+  margin-bottom:15px;
 }
 .cupcakes-text{
     font-size: 34px;
