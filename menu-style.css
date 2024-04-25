@@ -3,7 +3,7 @@
 .mainphoto Logo {
    background-color: #215497;
   color: #fff;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   position: fixed;
   bottom: 0;
@@ -82,7 +82,7 @@ width: 100%;
 
 /* Menu */
 .cakes-text{
-font-size: 34px;
+font-size: 30px;
 font-weight: 600;
 width: 100%;
 padding: 40px;
