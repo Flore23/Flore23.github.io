@@ -1,101 +1,98 @@
   <style> 
 
-  .mainphoto Logo {
-     background-color: #215497;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-    
-img {
-  width: 220px; 
-  height: 190px;
-  
-}
-body {
-  font-family:"Lucida Console", "Courier New", monospace;;
-  margin: 0;
-  padding: 0;
-}
-header {
-  background-image: #0e58e2;
-  color: #181717;
-  padding: 100px;
+.mainphoto Logo {
+   background-color: #215497;
+  color: #fff;
+  padding: 15px;
   text-align: center;
-  display:relative;
-  justify-content: center;
-  align-items: center;
   position: fixed;
-  z-index: 9999;
-  top:0;
+  bottom: 0;
   width: 100%;
 }
+  
+body {
+font-family:"Lucida Console", "Courier New", monospace;;
+margin: 0;
+
+}
+header {
+
+background-image: #0e58e2;
+color: #181717;
+padding: 10px;
+text-align: center;
+display:relative;
+justify-content: center;
+align-items: center;
+position: fixed;
+top:0;
+z-index: 9999;
+width: 100%;
+}
 nav {
-  background-color: #215497;
-  padding: 10px;
-  text-align: center;
+background-color: #215497;
+padding: 10px;
+text-align: center;
 }
 nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
 }
 nav a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 header {
-  margin:0;
-  padding:0;
-  background-color: rgb(146, 209, 235);
-  color: #ee5c5c;
-  height:30vh;
-  align-items:center;
-  justify-content:center;
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-body {
-  margin:0;
+margin:0;
 padding:0;
-background-color: rgba(235, 244, 248, 0.938);
-color: #1b1919;
-height:40vh;
-padding-top: 400px;
+background-color: rgb(146, 209, 235);
+color: #ee5c5c;
+height:30vh;
 align-items:center;
 justify-content:center;
 font-family: "Lucida Console", "Courier New", monospace;
 }
+body {
+margin:0;
+padding:0;
+background-color: rgba(235, 244, 248, 0.938);
+color: #1b1919;
+height: 80vh;
+padding-top: 100px;
+align-items:center;
+justify-content:center;
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
 
 .animated-text{ 
-  font-size: 34px;
-  font-weight: 600;
-  min-width: 280px;
-  align-items:below;
-  justify-content:below;
+font-size: 34px;
+font-weight: 600;
+min-width: 280px;
+align-items:below;
+justify-content:below;
 }
 
 .Fev-text{
-  font-size: 34px;
-  font-weight: 600;
-  width: 100%;
-  padding: 40px;
-  padding-top: 400px;
-  text-align: center;
-  position: relative;
+font-size: 34px;
+font-weight: 600;
+width: 100%;
+padding: 200px;
+padding-top: 250px;
+padding-bottom: 50px;
+text-align: center;
+position: relative;
 }
 .OP{
-  font-size: 34px;
-  font-weight: 600;
-  width: 100%;
-  padding: 40px;
-  text-align: center;
-  position: relative;
-  color: #5e0303
+font-size: 34px;
+font-weight: 600;
+width: 100%;
+padding: 40px;
+text-align: center;
+position: relative;
+color: #5e0303
 }
-
 
 
 footer {
