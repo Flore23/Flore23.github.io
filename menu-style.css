@@ -46,6 +46,7 @@ text-decoration: underline;
 header {
 margin:0;
 padding:0;
+width: 120%;
 background-color: rgb(146, 209, 235);
 color: #ee5c5c;
 height:30vh;
@@ -70,7 +71,7 @@ font-family: "Lucida Console", "Courier New", monospace;
 footer {
 background-color: #215497;
 color: #fff;
-padding: 2px;
+padding: 1px;
 text-align: center;
 position: fixed;
 bottom: 0;
