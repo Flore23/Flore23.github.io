@@ -1,0 +1,98 @@
+<contact-style>
+ 
+body {
+font-family:"Lucida Console", "Courier New", monospace;;
+margin: 0;
+
+}
+header {
+
+background-image: #0e58e2;
+color: #181717;
+padding: 10px;
+text-align: center;
+display:relative;
+justify-content: center;
+align-items: center;
+position: fixed;
+top:0;
+z-index: 9999;
+width: 100%;
+}
+nav {
+background-color: #215497;
+padding: 10px;
+text-align: center;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+}
+nav a:hover {
+text-decoration: underline;
+}
+
+header {
+margin:0;
+padding:0;
+background-color: rgb(146, 209, 235);
+color: #ee5c5c;
+height:30vh;
+align-items:center;
+justify-content:center;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+margin:0;
+padding:0;
+background-color: rgba(235, 244, 248, 0.938);
+color: #1b1919;
+height:40vh;
+padding-top: 300px;
+align-items:center;
+justify-content:center;
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+
+footer {
+background-color: #215497;
+color: #fff;
+padding: 15px;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+/* Contact */
+.Contact-text{
+font-size: 34px;
+font-weight: 600;
+width: 100%;
+padding: 20px;
+padding-top: 300px;
+text-align: center;
+position: relative;
+color: #5e0303
+}
+
+*{
+box-sizing: border-box;
+}
+
+.c {
+float: left;
+width: 25%;
+padding:100px;
+text-align: center;
+}
+
+.r::after{
+content: "";
+display: table;
+clear: both;
+
+}

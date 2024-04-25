@@ -1,0 +1,140 @@
+<home.style>
+
+.mainphoto Logo {
+   background-color: #215497;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+  
+body {
+font-family:"Lucida Console", "Courier New", monospace;;
+margin: 0;
+
+}
+header {
+
+background-image: #0e58e2;
+color: #181717;
+padding: 10px;
+text-align: center;
+display:relative;
+justify-content: center;
+align-items: center;
+position: fixed;
+top:0;
+z-index: 9999;
+width: 100%;
+}
+nav {
+background-color: #215497;
+padding: 10px;
+text-align: center;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 10px;
+}
+nav a:hover {
+text-decoration: underline;
+}
+
+header {
+margin:0;
+padding:0;
+background-color: rgb(146, 209, 235);
+color: #ee5c5c;
+height:30vh;
+align-items:center;
+justify-content:center;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+body {
+margin:0;
+padding:0;
+background-color: rgba(235, 244, 248, 0.938);
+color: #1b1919;
+height: 80vh;
+padding-top: 100px;
+align-items:center;
+justify-content:center;
+font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+.animated-text{ 
+font-size: 34px;
+font-weight: 600;
+min-width: 280px;
+align-items:below;
+justify-content:below;
+}
+
+.Fev-text{
+font-size: 34px;
+font-weight: 600;
+width: 100%;
+padding: 200px;
+padding-top: 250px;
+padding-bottom: 50px;
+text-align: center;
+position: relative;
+}
+.OP{
+font-size: 34px;
+font-weight: 600;
+width: 100%;
+padding: 40px;
+text-align: center;
+position: relative;
+color: #5e0303
+}
+
+
+
+footer {
+background-color: #215497;
+color: #fff;
+padding: 1px;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+/* THIS LINE IS FOR THE HOME AND INDEX PHOTO  */
+
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding:100px;
+    text-align: center;
+}
+
+.row::after{
+content: "";
+display: table;
+clear: both;
+
+}
+
+
+.content { display: inline-block;}
+.text1 {
+font-size: 3em;
+letter-spacing: 20px;
+border-right: 100px solid;
+width: 100%;
+align-items: center
+
+}
+
+/* END of home */
